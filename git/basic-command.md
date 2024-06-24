@@ -71,3 +71,7 @@ git push {remote_name} master
 
 ## 다시 저장하고 github로 올리는 명령어
 > `git add .` -> `git commit -m "이름"` -> `git push {remote_name} master`
+
+git add .
+git commit -m "8"
+git push origin master
