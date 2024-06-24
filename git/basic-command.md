@@ -45,4 +45,7 @@ git status
 git commit -m "first commit"
 ```
 
+코드 작성 후 변경사항이 있으면 `git add .` -> `git commit -m ""`
 
+git commit -m "" 하면 내 컴퓨터에만 저장.
+github에 올릴꺼임
