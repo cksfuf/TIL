@@ -34,10 +34,11 @@ git status
 
 ## commit
 - 현재 staging aree에 올라간 내용을 스냅샷 찍기
+    - `-m` 옵션을 통해 커밋메세지를 바로 입력가능
 - 옵션 없이 git commmit을 사용하면 이름 작성하라 나옴
     - git config --global user.email "이메일"
     - git config --global user.name "이름"
-- 또 옵션 없이 git commmit을 사용하면 변화된 내용 적으라고 나옴
+- 또 옵션 없이 git commmit을 사용하면 커밋메세지 적으라고 나옴
     - `-m "name"`:메세지 작성하는 옵션
 
 ```bash
