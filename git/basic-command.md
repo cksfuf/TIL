@@ -53,4 +53,21 @@ git commit -m "first commit"
 - git push origin master
     - 내 .git 을 origin 주소로
 
-> 코드 작성 후 변경사항이 있으면 `git add .` -> `git commit -m ""`
+
+## remote add
+- 원격저장소의 주소를 저장하는 명령어
+
+```bash
+git remote add {remote_name} {remoto_url}
+```
+
+
+## push
+- 원격장소로 브랜치를 업로드 하는 명령어
+
+```bash
+git push {remote_name} master
+```
+
+## 다시 저장하고 github로 올리는 명령어
+> `git add .` -> `git commit -m "이름"` -> `git push {remote_name} master`
