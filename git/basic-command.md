@@ -45,10 +45,12 @@ git status
 git commit -m "first commit"
 ```
 
+- git commit -m "" 하면 내 컴퓨터 TIL .git 에만 저장.
+- github에 올릴꺼임
+    - git은 트리구조. 분기점 brancg는 가지. 제일 굵은 가지를 master(.git)
+- git remote add origin https://github.com/cksfuf/TIL.git
+    - github 주소를 origin 으로 지정
+- git push origin master
+    - 내 .git 을 origin 주소로
+
 > 코드 작성 후 변경사항이 있으면 `git add .` -> `git commit -m ""`
-
-git commit -m "" 하면 내 컴퓨터 TIL .git 에만 저장.
-
-github에 올릴꺼임
-
-git은 트리구조. 분기점 brancg는 가지. 제일 굵은 가지를 master
