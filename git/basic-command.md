@@ -73,5 +73,5 @@ git push {remote_name} master
 > `git add .` -> `git commit -m "이름"` -> `git push {remote_name} master`
 
 git add .
-git commit -m "8"
+git commit -m "an"
 git push origin master
