@@ -71,3 +71,39 @@ git push {remote_name} master
 
 ## 다시 저장하고 github로 올리는 명령어
 > `git add .` -> `git commit -m "이름"` -> `git push {remote_name} master`
+
+
+### vscode
+- 정의: 소스 코드 편집기. 다양한 프로그래밍 언어 지원.
+- 코드 실행: 실행시키고자 하는 파일 들어가서 마우스 오른쪽 코드로 열기
+- 터미널 열기: ctrl + `(물결)
+
+
+### linux basic command
+- pwd (print working directory): 현재 작업중인 경로를 표시
+- clear (ctrl + l): 터미널 창을 지워주는 명령어
+- ls: 현재 폴더에 있는 파일/폴더 목록 표시(ls -a: 숨겨진 목록까지 표시)
+- mkdir {directory_name}: 폴더 생성
+- touch: 파일 생성
+- rm {name}: 파일 삭제(rm -r: 폴더 삭제)
+- cd(cgange directory)
+	- cd .. : 상위 폴더로 이동
+	- cd ~ : 홈(데스크탑)으로 이동
+	- cd {directory_name}: 해당 폴더로 이동
+
+
+### git 과정 한글설명
+
+- 관리하고싶은 상위 파일에 git init -> .git 폴더 생성한거임
+- 파일 변경 후 저장 -> 내 컴퓨터에만 있는 .git 폴더 저장된거임
+- 저장 후 git add . -> .git 폴더의 모든 파일을 스테이지에 올린거임
+- git status -> 현재 git 상태 확인
+- git add . 후 git commit -m "커밋메세지" -> 스테이지 위에 있는 애들 사진 찍은거임
+- git remote add origin https://github.com/cksfuf/TIL.git -> 내 github 계정의 주소를 origin 으로 지정
+- git push origin master -> 사진찍은 .git 폴더를 내 github 계정에 올린거임
+
+- 위 과정 후 관리하는 파일을 변경하여 또 github에 올리고 싶다면?
+- git add .
+- git commit -m "an"
+- git push origin master
+- 이것만 반복하셈.
