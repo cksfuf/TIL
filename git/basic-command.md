@@ -15,6 +15,24 @@ git init
 ```
 
 
+## 가상환경 생성
+- 현재 위치에 python 가상환경 생성
+- python -m venv venv
+
+```bash
+python -m venv venv
+```
+
+
+## 가상환경 활성화
+- windows에서 가상환경 활성화
+- source venv\Scripts\activate
+
+```bash
+source venv\Scripts\activate
+```
+
+
 ## add
 - working directory -> staging aree
 - `git add .`: 현재 디렉토리와 하위 디렉토리에 있는 모든 변경 사항을 staging aree 에 추가. `.`은 현재 디렉토리를 나타냄.
